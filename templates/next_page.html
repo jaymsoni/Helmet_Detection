@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<style>
+
+body {
+        background-image: url("static/helmet3.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        z-index: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+.section {
+    background-color: #ffffff00;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 95px;
+    margin-bottom:10px;
+    float: left;
+}
+
+
+.section2 {
+    background-color: #ffffff00;
+    width: 30%;
+    margin-top: 25px;
+    margin-right: 95px;
+    float: right;
+
+}
+.yupo {font-family: "Times New Roman"}
+
+div {
+    border-radius: 1px;
+    background-color: #f2f2f200;
+    padding: 10px;
+}
+.inside_div {
+	height:350px;
+	
+}
+.inside_div2 {
+	height:350px;
+}
+.inside_div img {
+    width: 100%;
+    height: 100%
+}
+.inside_div2 img {
+    width: 100%;
+    height: 100%
+}
+
+svg.bi.bi-arrow-right {
+    margin: 100px 0;
+    position: relative;
+    top: 92px;
+    left: 55px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+}
+h1 {
+    position: relative;
+    top: 10px;
+    font-family: Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+button {
+  background-color: #af4c4c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  top: 80px
+    }
+
+</style>
+
+
+
+</head>
+
+<body>
+
+	<h1><center>RESULTS</center></h1>
+<div class="section">
+  
+        
+    
+	<h3 font-color="yellow"><center>Input Image</center></h3>
+
+    <div class="inside_div">
+
+
+        <img  src="{{real}}"></img>
+
+    </div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg>
+<div class="section2">
+    <h3 font-color="yellow"><center>Output Image</center></h3>
+
+	
+    <div class="inside_div2">
+
+
+     <img src="{{img}}"></img>
+
+    </div>
+	
+</div>
+<!-- <div class="form-start">
+    <form action="/">  
+      <input type="submit" value="BACK">
+  </form>
+   </div> -->
+   
+<a href = "/"> 
+<center>
+<button class="button"> BACK </button>
+</center>
+</a>
+</body>
+
+
+
+</html>
